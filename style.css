@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto+Condensed:wght@300&family=Secular+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Varela+Round&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+}
+.main-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.site-header {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+h1{
+    font-size: 60px;
+    line-height: 1.5;
+}
+
+.Search-bar {
+    position: relative;
+    border: none;
+    border-radius: 15px;
+}
+
+.Search-btn {
+    position: absolute;
+    right: 235px;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    border: none;
+}
+
+.child {
+    position: relative;
+}
+
+.leaves {
+    position: absolute;
+    right: 0px;
+    top: 340px;
+}
+.show-menu .card{
+    box-shadow: rgba(0, 0, 0, 0.323) 2px 2px 10px;
+    transition: all 0.3s ease-in-out 0s;
+    border: none;
+}
+.show-menu .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.167) 3px 3px 30px;
+}
+
+.more-info {
+    background-color: rgb(59, 58, 58);
+}
+
+
+.pizza-con {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
+.leaves_1{
+    position:absolute;
+    bottom: 200px;
+    left: 0px;
+    width: 100%;
+    height: 570px;
+}
+.pizza-part{
+    padding-top: 125px;
+}
+.pizza{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+.mail-box{
+    border: none;
+    border-radius: 15px;
+}
+.title-manu {
+    position: relative;
+    background-color: rgb(59, 58, 58);
+    min-height: 400px;
+}
+.leaves_2{
+    position: absolute;
+    top:0px;
+    right:-16px;
+    width: 65%;
+    height: 430px;
+}
+
+footer ul li a {
+    color: black;
+}
